@@ -1,50 +1,42 @@
 </main>
 
-<footer class="site-footer">
-    <div class="footer-content">
-        <p>© <?php echo date('Y'); ?> My Shop</p>
+<footer class="footer">
+    <div class="footer-container">
 
-      
         <div class="footer-logo">
-            <img src="assets/images/logo.png" alt="JinRo Mart">
-            <h4>JINRO MART</h4>
-            <span>FRESH FINDS</span>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/logo.png" alt="<?php bloginfo('jinRo Mart'); ?>">
+            <p class="footer-description">
+                JinRo Mart serves as a mail-order intermediary for products sold by
+                individual sellers. We are not a party to the sale and are not
+                responsible for product or transaction information.
+            </p>
         </div>
-
-        <p class="footer-text">
-            JinRo Mart serves as a mail-order intermediary for products sold by individual sellers.
-            We are not a party to the sale and are not responsible for product or transaction information.
-        </p>
-
         <div class="footer-social">
-            <a href=""><i class="fab fa-instagram"></i></a>
-            <a href=""><i class="fab fa-twitter"></i></a>
-            <a href=""><i class="fab fa-pinterest"></i></a>
-            <a href=""><i class="fab fa-facebook"></i></a>
-            <a href=""><i class="fab fa-youtube"></i></a>
-            <a href="" class="mobile-app">
-                <i class="fas fa-mobile-alt"></i> Mobile app
-            </a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-pinterest"></i></a>
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-solid fa-mobile-screen"></i></a>
         </div>
 
         <div class="footer-links">
-            <a href="contact.php">
-                <i class="far fa-envelope"></i> CONTACT US
-            </a>
-            <a href="delivery.php">
-                <i class="fas fa-truck"></i> DELIVERY
-            </a>
-            <a href="store-finder.php">
-                <i class="fas fa-store"></i> STORE FINDER
-            </a>
+            <div>
+                <i class="fa-regular fa-envelope"></i>
+                <span>CONTACT US</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-truck"></i>
+                <span>DELIVERY</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-store"></i>
+                <span>STORE FINDER</span>
+            </div>
         </div>
-
     </div>
 </footer>
-<head>
-    <?php wp_head(); ?>
-    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
-</head>
 
-
+<?php wp_footer(); ?>
 </body></html>
+
