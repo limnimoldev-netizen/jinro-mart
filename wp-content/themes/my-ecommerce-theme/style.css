@@ -13,7 +13,7 @@ body{
 
 header {
     background: #690c01;
-    padding: 10px 30px;
+    padding: 10px 90px;
     display: block;
     justify-content: space-between;
     align-items: center;
@@ -55,7 +55,6 @@ header h1 {
     color:#ce8f83;
 }
 
-/* SEARCH BAR */
 .search-wrapper {
     padding: 20px;
     /* background-color: #ce8f83; */
@@ -108,6 +107,7 @@ header h1 {
     color: #333;
     margin-right: 10px;
 }
+
 .footer1{
     margin: auto;
 }
@@ -120,7 +120,7 @@ header h1 {
 }
 .footer-description{
     color: white;
-    font-family: "Public Sans", sans-serif;
+    /* font-family: "Public Sans", sans-serif; */
 }
 .footer-social a{
     color: white;
@@ -153,4 +153,148 @@ header h1 {
 }
 
 
+@media (max-width: 768px) {
 
+  /* HEADER */
+  header {
+    padding: 10px 20px;
+  }
+
+  header h1 {
+    font-size: 22px; 
+  }
+
+  .logo-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo img {
+    margin-top: 5px;
+    width: 120px;
+  }
+
+  /* MENU */
+  .container {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .menu ul li a {
+    font-size: 14px;
+  }
+
+  /* SEARCH */
+  .search-wrapper {
+    width: 100%;
+    padding: 10px;
+    margin-left: 0;
+  }
+
+  .search-form {
+    width: 100%;
+  }
+
+  .search-input {
+    width: 100%;
+    font-size: 14px; 
+    padding: 8px;
+  }
+
+  .search-btn {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+
+  /* ICONS */
+  .icon,
+  .icon1 {
+    font-size: 18px; 
+    padding: 8px;
+    margin-top: 10px;
+  }
+
+  .footer-description {
+    font-size: 14px; 
+  }
+
+  .footer-links {
+    flex-direction: column;
+  }
+
+  .footer-links i {
+    padding: 10px;
+  }
+
+  .note {
+    font-size: 12px;
+  }
+}
+
+
+
+
+.hero-banner {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-overlay {
+    background: rgba(132, 17, 11, 0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: #fff;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.hero-content h1 span {
+    color: #690c01;
+}
+
+.hero-content p {
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.hero-search input {
+    width: 100%;
+    max-width: 400px;
+    padding: 14px 20px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+
+.products{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #ce8f83; */
+}
+
+.items img{
+    display: block;
+    width: 300px;
+
+}
+.items{
+    background-color: #ce8f83;
+    text-align: center;
+}

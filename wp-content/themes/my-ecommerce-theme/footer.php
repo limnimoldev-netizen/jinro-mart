@@ -22,16 +22,19 @@
 
         <div class="footer-links">
             <div>
-                <i class="fa-regular fa-envelope"></i>
-                <span>CONTACT US</span>
+                <i class="fa-regular fa-envelope">
+                     <span>CONTACT US</span>
+                </i>
             </div>
             <div>
-                <i class="fa-solid fa-truck"></i>
-                <span>DELIVERY</span>
+                <i class="fa-solid fa-truck">
+                    <span>DELIVERY</span>
+                </i>
             </div>
             <div>
-                <i class="fa-solid fa-store"></i>
-                <span>STORE FINDER</span>
+                <i class="fa-solid fa-store">
+                    <span>STORE FINDER</span>
+                </i>
             </div>
         </div>
 
@@ -39,7 +42,7 @@
 
         <div class="text">
             <div class="note">
-                <span>@Nimol Cute 2025</span>
+                <span>@Jinro Mart 2025</span>
             </div>
         </div>
     </div>
@@ -47,4 +50,3 @@
 
 <?php wp_footer(); ?>
 </body></html>
-

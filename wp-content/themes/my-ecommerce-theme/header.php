@@ -38,11 +38,7 @@
             </a>
         </div>
 
-        <!-- <div class="lang-switch">
-            <a href="?lang=en">EN</a>
-            <a href="?lang=kh">KH</a>
-            <a href="?lang=ko">KO</a>
-        </div> -->
+        
 
     </div>
 
