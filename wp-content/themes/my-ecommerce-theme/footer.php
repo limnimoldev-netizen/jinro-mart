@@ -1,6 +1,6 @@
 </main>
 
-<footer class="footer1">
+ <footer class="footer1">
     <div class="footer-container">
 
         <div class="footer-logo">
@@ -17,7 +17,7 @@
             <a href=""><i class="fa-brands fa-pinterest"></i></a>
             <a href=""><i class="fa-brands fa-facebook-f"></i></a>
             <a href=""><i class="fa-brands fa-youtube"></i></a>
-            <!-- <a href=""><i class="fa-solid fa-mobile-screen"></i></a> -->
+           <a href=""><i class="fa-solid fa-mobile-screen"></i></a> 
         </div>
 
         <div class="footer-links">
@@ -46,7 +46,14 @@
             </div>
         </div>
     </div>
-</footer>
+</footer> 
+
+
+
+
+
+
+
 
 <?php wp_footer(); ?>
 </body></html>
