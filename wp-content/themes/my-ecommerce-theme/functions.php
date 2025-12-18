@@ -30,6 +30,10 @@ function mytheme_register_product_category() {
         'hierarchical'=>true
     ]);
 }
+add_action('wp_enqueue_scripts', function() {
+    wp_enqueue_style('mytheme-style', get_stylesheet_uri(), array(), wp_get_theme()->get('Version'));
+});
+
 add_action('init','mytheme_register_product_category');
 
 function mytheme_product_meta() {
